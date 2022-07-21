@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+} 
+.top-player{
+    background-color:black;
+    border-radius: 2.5%;
+    margin-left: 6%;
+    margin-top: 5%;
+    width: 90%;
+    height: 25%;
+}
+.player{
+    display: flex;
+    
+    
+}
+.player img{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 600px;
+}
+h3{
+    font-size: 50px;
+    color: lightgrey;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+p{  
+    font-size: 20px;
+    color: antiquewhite;
+    margin-top: 25%;
+    margin-right: 15%;
+    
+
+}
+
+.small-div{
+    background-color: black;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 312px;
+    width: 312px;
+}
+.section2{
+    /* background-color: lightcyan; */
+    margin-bottom:5%;
+   
+}
+.container2{
+   
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 576px){
+    .container2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 577px) and (max-width:992px){
+    .container2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+.button1{
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
+    height:20%;
+    margin-bottom: 4%;
+    border-radius: 10%;
+}
+.button2{
+    margin-left: 10%;
+    width: 80%;
+    height:20%;
+    margin-bottom: 4%;
+    border-radius: 10%;
+}
+.button3{
+    margin-left: 10%;
+    background-color: rgb(215, 64, 64);
+    width: 80%;
+    height:20%;
+    margin-bottom: 4%;
+    border-radius: 10%;
+}
+
+.box{
+    border: 1px solid gray;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding:15px;
+}
+.footer{
+    background-color: black;
+    margin-left: 2%;
+    width: 95%;
+    height: 700px;
+}
+h1{
+    color: aliceblue;
+    position: relative;
+    align-items: center;    
+}
+hr{
+    margin-top: 50px;
+    color: darkgoldenrod;
+}
+
+h4{ display: inline;
+    justify-content: end;
+    font-size: 20px;
+    color: lightgrey;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
